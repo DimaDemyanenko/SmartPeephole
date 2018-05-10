@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    style="@style/MM">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="@dimen/font_size_22"
+        android:text="@string/txt_need_email_1"
+        android:layout_weight="1"
+        android:padding="@dimen/dimen_16"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+    <Button
+        android:text="@string/txt_need_email_2"
+        android:id="@+id/btn_add_email"
+        android:padding="@dimen/dimen_16"
+        android:layout_gravity="bottom"
+        style="@style/MW"/>
+
+</LinearLayout>

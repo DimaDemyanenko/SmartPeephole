@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MW"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen_16">
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_18" />
+
+    <ImageView
+        android:id="@+id/btn_delete"
+        style="@style/WW"
+        android:padding="@dimen/dimen_16"
+        android:src="@android:drawable/ic_delete" />
+
+</LinearLayout>

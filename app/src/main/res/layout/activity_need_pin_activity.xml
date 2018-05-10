@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/dimen_16"
+        android:text="@string/txt_need_pin"
+        android:textSize="@dimen/font_size_22" />
+
+    <Button
+        android:id="@+id/btn_choose_bluetooth"
+        style="@style/MW"
+        android:padding="@dimen/dimen_16"
+        android:text="@string/btn_continue" />
+
+</LinearLayout>

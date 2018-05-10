@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_add_phones"
+        style="?borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_phones" />
+
+    <Button
+        android:id="@+id/btn_add_emails"
+        style="?borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_email" />
+
+    <Button
+        android:id="@+id/btn_bluetooth_option"
+        style="?borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth_options" />
+
+    <Button
+        android:id="@+id/btn_pin_option"
+        style="?borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pin_code" />
+
+    <Button
+        android:id="@+id/btn_video_duration"
+        style="?borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video_duration" />
+</LinearLayout>

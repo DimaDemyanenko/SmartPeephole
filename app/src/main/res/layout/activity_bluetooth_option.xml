@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_16">
+
+    <LinearLayout
+        style="@style/MW"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/WW"
+            android:layout_weight="0.1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/status"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bluetoothStatus"
+            style="@style/WW"
+            android:layout_weight="0.9"
+            android:ellipsize="end"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scan"
+        style="@style/MW"
+        android:text="@string/set_bluetooth_on" />
+
+    <Button
+        android:id="@+id/discover"
+        style="@style/MW"
+        android:text="@string/find_bluetooth_device" />
+
+    <ListView
+        android:id="@+id/devicesListView"
+        style="@style/WW"
+        android:choiceMode="singleChoice" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MM"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/MW"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/new_email"
+                style="@style/MW"
+                android:hint="@string/set_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/MW"
+                android:hint="@string/set_password"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add"
+            style="?borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@android:drawable/ic_input_add"
+            android:gravity="center"
+            android:text="@string/btn_add" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        style="?borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_continue" />
+
+</LinearLayout>

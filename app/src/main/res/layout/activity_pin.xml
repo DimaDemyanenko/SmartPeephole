@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/MW"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/new_pin"
+                style="@style/MW"
+                android:hint="@string/set_new_pin"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/repeat_pin"
+                style="@style/MW"
+                android:hint="@string/repeat_pin"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add"
+            style="?borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@android:drawable/ic_input_add"
+            android:gravity="center"
+            android:text="@string/btn_add" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        style="?borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_continue" />
+
+</LinearLayout>

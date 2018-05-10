@@ -1,0 +1,103 @@
+<resources>
+
+    <!--Bluetooth-->
+    <string name="bluetooth_status">Статус: Устройство не найдено</string>
+    <string name="bluetooth_on">Блютуз включен</string>
+    <string name="bluetooth_off">Блютуз отключен</string>
+    <string name="bluetooth_connecting">Подключение к устройству </string>
+    <string name="bluetooth_error_connecting">Ошибка подключения к устройству</string>
+    <string name="bluetooth_already_on">Блютуз уже включен</string>
+    <string name="bluetooth_discovery_stopped">Поиск устройств остановлен</string>
+    <string name="bluetooth_discovery">Поиск устройств</string>
+    <string name="bluetooth_stopped">Блютуз отключен. Пожалуйста, включите блютуз на телефоне</string>
+    <string name="bluetooth_device_choose">Устройство выбрано</string>
+    <string name="bluetooth_not_on">Блютуз не включен</string>
+    <string name="bluetooth_connected">Подключено к устройству:</string>
+    <string name="bluetooth_socket_creation_failed">Socket creation failed</string>
+
+    <!--OptionPin-->
+    <string name="pin_is_right">Убедитесь, что ввели pin-код правильно</string>
+    <string name="pin_is_right_again">Убедитесь, что правильно ввели pin-код повторно</string>
+    <string name="pin_saved">Pin-код сохранен</string>
+
+    <!--VideoDuration-->
+    <string name="set_video_duration">Введитети продолжительность видео</string>
+    <string name="saved">Сохранено</string>
+
+    <!--Alarm-->
+    <string name="pin_not_correct">НЕВЕРНЫЙ ПИН-КОД</string>
+
+    <!--CameraActivity-->
+    <string name="capture_video_stopped">Остановлено</string>
+    <string name="start_video_capture">Началась видеозапись</string>
+    <string name="need_bluetooth">Для продолжения работы Вы должны включить блютуз</string>
+
+    <!--AlarmDialog-->
+    <string name="door_was_opened">Несанкционированное открытие двери</string>
+
+    <!--Email-->
+    <string name="email_title">Умный глазок</string>
+
+    <!--Models-->
+    <string name="start_download">Начата загрузка</string>
+    <string name="call">Позвонили в дверь</string>
+    <string name="call_continue">Позвонили в дверь (Продолжение)</string>
+    <string name="door_opened">Открыли дверь</string>
+    <string name="knock">Постучали в дверь</string>
+    <string name="knock_continue">Постучали в дверь (Продолжение)</string>
+    <string name="motion">Сработал датчик движения</string>
+    <string name="motion_continue">Сработал датчик движения (Продолжение)</string>
+
+    <!--OptionEmail-->
+    <string name="check_email">Убедитесь, что ввели e-mail правильно</string>
+    <string name="check_password">Убедитесь, что ввели пароль</string>
+    <string name="email_saved">E-mail сохранен</string>
+
+
+
+    <!--for camera-->
+    <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
+    <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
+    <string name="picture_taken">Picture taken</string>
+    <string name="aspect_ratio">Aspect ratio</string>
+    <string name="switch_flash">Switch flash</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="flash_auto">Flash auto</string>
+    <string name="flash_off">Flash off</string>
+    <string name="flash_on">Flash on</string>
+
+    <!--Layouts-->
+    <string name="app_name">Умный глазок</string>
+    <string name="btn_main_start">Начать работу</string>
+    <string name="btn_main_options">Настройки</string>
+    <string name="txt_need_phones_1">Укажите номера телефонов*, на которые Умный глазок сможет отправлять SMS-сообщения и уведомления о срабатывании датчиков, и с которых Умный глазок сможет принимать телефонные звонки</string>
+    <string name="txt_need_phones_2">* На данных устройствах должно быть установлено клинтское приложение системы Умный глазок</string>
+    <string name="btn_add_phones">Добавить номера</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="txt_need_email_1">Укажите почтовыЙ ящики, на который Умный глазок сможет отправлять видеозаписи</string>
+    <string name="txt_need_email_2">Добавить почтовый ящик</string>
+    <string name="add_phones">Добавить номера телефонов</string>
+    <string name="change_email">Изменть email</string>
+    <string name="bluetooth_options">Настройки блютуза</string>
+    <string name="pin_code">Pin-код</string>
+    <string name="video_duration">Продолжительность видео</string>
+    <string name="txt_need_bluetooth">Выберите блютуз-устройство для подключения Умного глазка к плате</string>
+    <string name="txt_need_pin">Придумайте pin-код для снятие системы Умный глазок с сигнализации</string>
+    <string name="pin_title">ВВИДЕТИ ПИН-КОД ДЛЯ СНЯТИЯ СИГНАЛИЗАЦИИ</string>
+    <string name="pin_hint">введите пин-код</string>
+    <string name="pin_alert_off">Отключить сигнализацию</string>
+    <string name="status">Статус:</string>
+    <string name="set_bluetooth_on">Включить блютуз</string>
+    <string name="find_bluetooth_device">Найти устройство</string>
+    <string name="set_email">Введите e-mail</string>
+    <string name="set_password">Введите пароль</string>
+    <string name="set_new_pin">Введите pin-код</string>
+    <string name="repeat_pin">Повторите pin-код</string>
+    <string name="set_duration">Продолжительность интервала видео (в секундах)</string>
+    <string name="duration">Продолжительность</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="set_pin_to_alert_off">ВВИДЕТИ ПИН-КОД ДЛЯ СНЯТИЯ СИГНАЛИЗАЦИИ</string>
+    <string name="allert_off">Отключить сигнализацию</string>
+
+</resources>

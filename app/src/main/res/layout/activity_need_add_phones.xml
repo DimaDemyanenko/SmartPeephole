@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_16">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/txt_need_phones_1"
+        android:textSize="@dimen/font_size_22" />
+
+    <TextView
+        style="@style/WW"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/txt_need_phones_2"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_add_phones"
+        style="@style/MW"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:text="@string/btn_add_phones" />
+
+</LinearLayout>

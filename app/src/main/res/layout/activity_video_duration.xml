@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/MM">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:text="@string/set_duration"
+        style="@style/WW"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/MW">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="numberDecimal"
+                android:hint="@string/duration"
+                android:id="@+id/new_duration"
+                style="@style/MW"/>
+        </LinearLayout>
+
+        <Button
+            android:gravity="center"
+            android:drawableLeft="@android:drawable/ic_input_add"
+            android:id="@+id/btn_add"
+            style="?borderlessButtonStyle"
+            android:text="@string/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>
